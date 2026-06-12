@@ -1,0 +1,79 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+.body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(135deg, #f5f7fa, #e4ecf7);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Card Container */
+.container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+}
+
+/* Card */
+.card {
+    background: #ffffff;
+    padding: 35px 30px;
+    border-radius: 14px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    text-align: center;
+}
+
+/* Heading */
+.card h2 {
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+/* Inputs */
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+input:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+/* Button */
+.btn {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #43a047;
+}
+
+/* Footer Text */
+.card p {
+    margin-top: 12px;
+    font-size: 13px;
+    color: #777;
+}
